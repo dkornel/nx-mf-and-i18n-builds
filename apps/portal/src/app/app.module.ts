@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { WelcomePortalComponent } from './welcome-portal.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [AppComponent, WelcomePortalComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(
@@ -18,7 +18,7 @@ import { RouterModule } from '@angular/router';
         },
         {
           path: '',
-          component: NxWelcomeComponent,
+          component: WelcomePortalComponent,
         },
       ],
       { initialNavigation: 'enabledBlocking' }
