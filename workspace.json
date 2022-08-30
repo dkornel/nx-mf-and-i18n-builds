@@ -3,8 +3,6 @@
   "version": 2,
   "projects": {
     "portal": "apps/portal",
-    "portal-e2e": "apps/portal-e2e",
-    "stands": "apps/stands",
-    "stands-e2e": "apps/stands-e2e"
+    "stands": "apps/stands"
   }
 }
