@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/portal/src",
-  "prefix": "mf-i18n",
+  "prefix": "portal",
   "i18n": {
     "sourceLocale": {
       "code": "en"
