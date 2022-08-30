@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/stands/src",
-  "prefix": "mf-i18n",
+  "prefix": "stands",
   "i18n": {
     "sourceLocale": {
       "code": "en"

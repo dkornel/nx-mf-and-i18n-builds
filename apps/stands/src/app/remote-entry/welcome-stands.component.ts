@@ -1,7 +1,7 @@
 import { Component, Inject, LOCALE_ID } from '@angular/core';
 
 @Component({
-  selector: 'mf-i18n-nx-welcome',
+  selector: 'stands-welcome',
   template: `
     <div>{{ localeId }}</div>
     <div>{{ translationMessage }}</div>
