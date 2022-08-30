@@ -2,6 +2,11 @@
   "projectType": "application",
   "sourceRoot": "apps/portal/src",
   "prefix": "mf-i18n",
+  "i18n": {
+    "sourceLocale": {
+      "code": "en"
+    }
+  },
   "targets": {
     "build": {
       "executor": "@nrwl/angular:webpack-browser",
@@ -18,7 +23,8 @@
         "scripts": [],
         "customWebpackConfig": {
           "path": "apps/portal/webpack.config.js"
-        }
+        },
+        "localize": ["en"]
       },
       "configurations": {
         "production": {
